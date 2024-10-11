@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv
-from linebot.v3 import messaging
+from linebot.v3 import messaging  # type: ignore
 
 load_dotenv(override=True)
 
@@ -20,9 +20,7 @@ def main():
 
     with messaging.ApiClient(configuration=configuration) as client:
         messaging_api = messaging.MessagingApi(client)
-        push_message_request = messaging.PushMessageRequest.from_dict(
-            obj=message_dict
-        )
+        push_message_request = messaging.PushMessageRequest.from_dict(obj=message_dict)
 
         try:
             resp = messaging_api.push_message(push_message_request)
