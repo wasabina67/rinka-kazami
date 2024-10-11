@@ -23,7 +23,7 @@ def main():
         push_message_request = messaging.PushMessageRequest.from_dict(obj=message_dict)
 
         try:
-            resp = messaging_api.push_message(push_message_request)
+            resp = messaging_api.push_message(push_message_request)  # noqa
             # print(resp)
         except Exception as e:
             print(e)
