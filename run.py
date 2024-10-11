@@ -25,7 +25,8 @@ def main():
         )
 
         try:
-            resp = None
+            resp = messaging_api.push_message(push_message_request)
+            print(resp)
         except Exception as e:
             print(e)
 
