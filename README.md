@@ -1,4 +1,9 @@
 # rinka-kazami
+
+<div align="center">
+  <img src="images/logo.png" width="250">
+</div>
+
 Rinka Kazami
 
 ## morning-alert
