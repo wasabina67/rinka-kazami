@@ -1,4 +1,5 @@
 import os
+import sys
 
 from dotenv import load_dotenv
 from linebot.v3 import messaging  # type: ignore
@@ -6,7 +7,7 @@ from linebot.v3 import messaging  # type: ignore
 load_dotenv(override=True)
 
 
-def main():
+def main(timing):
     user_id = os.getenv("LINE_USER_ID")
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
 
@@ -30,4 +31,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        timing = sys.argv[1]
+        main(timing)
