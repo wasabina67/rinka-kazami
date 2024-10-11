@@ -10,7 +10,7 @@ Rinka Kazami
 
 <!--
 <div align="center">
-  <img src="images/logo.png" width="200">
+  <img src="images/qrcode.png" width="200">
 </div>
 -->
 
