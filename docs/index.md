@@ -1,4 +1,4 @@
-元々は、LINE Notifyを使用して時報機能を実装していたが、2024/10にサ終のお知らせが入る。
+元々は、LINE Notifyを使用して時報機能を実装していたが、2024/10にサ終のお知らせが入った。
 
 - [wasabina67/line-notify-morning-alert](https://github.com/wasabina67/line-notify-morning-alert)
 - [wasabina67/line-notify-sleep-alert](https://github.com/wasabina67/line-notify-sleep-alert)
