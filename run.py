@@ -10,13 +10,24 @@ def main():
     user_id = os.getenv("LINE_USER_ID")
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
 
-    config = messaging.Configuration(access_token=access_token)
+    configuration = messaging.Configuration(access_token=access_token)
     message_dict = {
         "to": user_id,
         "messages": [
             {"type": "text", "text": "text"},
         ],
     }
+
+    with messaging.ApiClient(configuration=configuration) as client:
+        messaging_api = messaging.MessagingApi(client)
+        push_message_request = messaging.PushMessageRequest.from_dict(
+            obj=message_dict
+        )
+
+        try:
+            resp = None
+        except Exception as e:
+            print(e)
 
 
 if __name__ == "__main__":
