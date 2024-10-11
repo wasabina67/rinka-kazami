@@ -9,7 +9,7 @@ Rinka Kazami
 ## QRCode
 
 <div align="center">
-  <img src="images/logo.png" width="250">
+  <img src="images/logo.png" width="150">
 </div>
 
 ## morning-alert
