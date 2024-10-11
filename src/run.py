@@ -44,6 +44,6 @@ def main(timing):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if len(sys.argv) == 2:
         timing = sys.argv[1]
         main(timing)
