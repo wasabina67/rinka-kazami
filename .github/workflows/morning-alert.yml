@@ -1,6 +1,8 @@
 name: morning-alert
 
 on:
+  schedule:
+    - cron: '00 23 * * *'
   workflow_dispatch:
 
 jobs:
