@@ -13,14 +13,14 @@ def main(timing):
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
     messages_by_timing = {
         "morning": [
-            "morning1",
-            "morning2",
-            "morning3",
+            "おはよう！今日はどんな日にしようか？応援してるよ！",
+            "おはようございます！元気いっぱいでスタートしようね！",
+            "お目覚めの時間だよ～！素敵な1日を過ごしてね！",
         ],
         "sleep": [
-            "sleep1",
-            "sleep2",
-            "sleep3",
+            "おやすみなさい。今日もお疲れさま！ゆっくり休んでね。",
+            "もう寝る時間だよ～。明日もいい日になりますように。おやすみ！",
+            "疲れた体をしっかり休めてね。いい夢が見られますように、おやすみ！",
         ],
     }
 
