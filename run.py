@@ -14,7 +14,7 @@ def main():
     message_dict = {
         "to": user_id,
         "messages": [
-            {"type": "text", "text": "text"},
+            {"type": "text", "text": "こんにちは！"},
         ],
     }
 
