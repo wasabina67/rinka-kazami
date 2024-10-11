@@ -24,7 +24,7 @@ def main():
 
         try:
             resp = messaging_api.push_message(push_message_request)
-            print(resp)
+            # print(resp)
         except Exception as e:
             print(e)
 
