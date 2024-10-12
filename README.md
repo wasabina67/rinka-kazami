@@ -1,7 +1,8 @@
 # rinka-kazami
 
 <div align="center">
-  <img src="images/logo.png" width="160">
+  <img src="images/logo.png" width="160">&nbsp;&nbsp;
+  <img src="images/620zeqon.png" width="160">
 </div>
 
 Rinka Kazami
