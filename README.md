@@ -6,7 +6,7 @@
 
 Rinka Kazami
 
-## QRCode
+## LINE Official Account / QRCode
 
 <div align="center">
   <img src="images/620zeqon.png" width="160">
