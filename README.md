@@ -7,12 +7,6 @@
 
 Rinka Kazami
 
-## LINE Official Account / QRCode
-
-<div align="center">
-  <img src="images/620zeqon.png" width="160">
-</div>
-
 ## morning-alert
 
 [![morning-alert](https://github.com/wasabina67/rinka-kazami/actions/workflows/morning-alert.yml/badge.svg)](https://github.com/wasabina67/rinka-kazami/actions/workflows/morning-alert.yml)
