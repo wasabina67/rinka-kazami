@@ -42,7 +42,13 @@ def main(timing, broadcast=False):
     with messaging.ApiClient(configuration=configuration) as client:
         messaging_api = messaging.MessagingApi(client)
         if broadcast:
-            pass
+            broadcast_request = messaging.BroadcastRequest.from_dict(obj=message_dict)
+
+            try:
+                resp = messaging_api.broadcast(broadcast_request)  # noqa
+                # print(resp)
+            except Exception as e:
+                print(e)
         else:
             push_message_request = messaging.PushMessageRequest.from_dict(obj=message_dict)
 
