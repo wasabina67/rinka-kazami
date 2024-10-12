@@ -8,11 +8,9 @@ Rinka Kazami
 
 ## QRCode
 
-<!--
 <div align="center">
-  <img src="images/qrcode.png" width="200">
+  <img src="images/620zeqon.png" width="200">
 </div>
--->
 
 ## morning-alert
 
