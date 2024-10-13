@@ -43,7 +43,6 @@ def main(timing, broadcast=False):
         messaging_api = messaging.MessagingApi(client)
         if broadcast:
             broadcast_request = messaging.BroadcastRequest.from_dict(obj=message_dict)
-
             try:
                 resp = messaging_api.broadcast(broadcast_request)  # noqa
                 # print(resp)
@@ -51,7 +50,6 @@ def main(timing, broadcast=False):
                 print(e)
         else:
             push_message_request = messaging.PushMessageRequest.from_dict(obj=message_dict)
-
             try:
                 resp = messaging_api.push_message(push_message_request)  # noqa
                 # print(resp)
