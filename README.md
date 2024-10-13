@@ -5,7 +5,7 @@
   <img src="images/620zeqon.png" width="160">
 </div>
 
-Rinka Kazami | LINE Official Account
+Rinka Kazami | 風見 りんか | LINE Official Account
 
 ## morning-alert
 
