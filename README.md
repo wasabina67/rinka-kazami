@@ -2,7 +2,9 @@
 
 <div align="center">
   <img src="images/logo.png" width="160">&nbsp;&nbsp;
-  <img src="images/620zeqon.png" width="160">
+  <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=620zeqon" target="_blank" rel="noopener noreferrer">
+    <img src="images/620zeqon.png" width="160">
+  </a>
 </div>
 
 Rinka Kazami | 風見 りんか | LINE Official Account
