@@ -8,7 +8,7 @@ from linebot.v3 import messaging  # type: ignore
 load_dotenv(override=True)
 
 
-def main(timing, broadcast=False):
+def main(timing, broadcast):
     user_id = os.getenv("LINE_USER_ID")
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
     messages_by_timing = {
