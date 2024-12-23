@@ -60,4 +60,4 @@ def main(timing, broadcast):
 if __name__ == "__main__":
     if len(sys.argv) == 2:
         timing = sys.argv[1]
-        main(timing, broadcast=True)
+        main(timing, broadcast=False)
